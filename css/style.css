@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ffffff;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between; /* Centraliza horizontalmente */
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 20vh 35px;
+    margin: 10px;
+}
+
+.hero p {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    padding: 5vh;
+    margin: 0px;
+    color: #000;
+}
+
+.hero img {
+    padding: 5vh;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 5vh 0vh;
+}
+
+.packages-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 0vh 35px;
+    margin: 10px;
+}
+
+.packages-section img{
+    padding: 5vh;
+    background-size: cover;
+    background-position: center;
+    height: 1100%;
+    width: 100%;
+    padding: 10vh 0vh;
+    margin: 0px;
+
+}
+
+.Why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    padding: 10vh 35px;
+    margin: 10px;
+}
+
+.divonica {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    margin: -10px;
+}
+
+.divonica img {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 15vh 20px;
+    margin: 0px;
+}
+
+.packages {
+    background-color: #f3f3f3;
+}
+
+.package-card {
+    background-color: #ffffff;
+    text-align: left;
+    color: #222222;
+    font-size: 20px;
+    padding: 8vh 12px;
+    margin: 20px;
+    height: 0px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.package-card p {
+    font-size: 10px;
+}
+
+.package-card img {
+    width: 10%;
+}
+
+.package-card-so-dele {
+    background-color: #ffffff;
+    text-align: left;
+    color: #222222;
+    font-size: 20px;
+    padding: 1vh 12px;
+    margin: 20px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-card-so-dele p {
+    font-size: 12px;
+    text-align: left;
+    padding: 1vh;
+    margin: -6px;
+    width: 275px;
+    height: 65px;
+}
+    
+.package-card-so-dele img {
+        max-width: 50px;
+}
+
+.esses-menos-ai {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+/* Footer */
+footer {
+    background-color: #3778FA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #ffffff;
+    padding: 50px 20px;
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+footer h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    width: 250px;
+}
+
+.footer-top p {
+    font-size: 15px;
+    width: 300px;
+    font-weight: lighter;
+}
+
+footer button {
+    background-color: #ffffff;
+    width: 119px;
+    height: 40px;
+    color: #000;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.footer-top img {
+    width: 100%;
+}
+
+.packages-footer {
+    font-size: 14px;
+}
+
+.text-footer-TalentHive{
+    text-align: left;
+    width: 195px;
+    font-weight: lighter;
+    margin-top: 90px;
+}
+
+.text-footer-TalentHive h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.text-footer-TalentHive p {
+    width: 195px;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.text-footer-explore {
+    text-align: left;
+    width: 200px;
+    font-weight: 400;
+    margin-left: 125px;
+    line-height: 4.5;
+    margin-top: 70px;
+}
+
+.talentHive-Explore {
+    display: flex;
+}
+
+.text-footer-about-terms-twitter {
+    display: flex;
+    font-size: 15px;
+}
+
+.text-footer-about-us {
+    text-align: left;
+    width: 100px;
+    font-weight: 300;
+    line-height: 3.5;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+.text-footer-terms {
+    text-align: left;
+    width: 200px;
+    font-weight: 300;
+    line-height: 3.5;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
